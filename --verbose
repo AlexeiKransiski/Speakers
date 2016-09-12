@@ -1,0 +1,30 @@
+== Info: Hostname was NOT found in DNS cache
+== Info:   Trying 216.58.217.209...
+== Info: Connected to server.cors-api.appspot.com (216.58.217.209) port 80 (#0)
+=> Send header, 227 bytes (0xe3)
+0000: OPTIONS /server?id=3349374 HTTP/1.1
+0025: User-Agent: curl/7.35.0
+003e: Host: server.cors-api.appspot.com
+0061: Accept: */*
+006e: Origin: http://example.com
+008a: Access-Control-Request-Method: POST
+00af: Access-Control-Request-Headers: X-Requested-With
+00e1: 
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 25 bytes (0x19)
+0000: Cache-Control: no-cache
+<= Recv header, 32 bytes (0x20)
+0000: Content-Type: application/json
+<= Recv header, 61 bytes (0x3d)
+0000: X-Cloud-Trace-Context: 0d6b100dded845a1c92bef0eed232734;o=1
+<= Recv header, 37 bytes (0x25)
+0000: Date: Fri, 02 Sep 2016 15:43:22 GMT
+== Info: Server Google Frontend is not blacklisted
+<= Recv header, 25 bytes (0x19)
+0000: Server: Google Frontend
+<= Recv header, 19 bytes (0x13)
+0000: Content-Length: 0
+<= Recv header, 2 bytes (0x2)
+0000: 
+== Info: Connection #0 to host server.cors-api.appspot.com left intact
